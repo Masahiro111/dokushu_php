@@ -1,0 +1,9 @@
+<?php
+
+
+/**
+ * Person
+ */
+class Person
+{
+}
