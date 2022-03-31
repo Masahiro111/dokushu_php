@@ -24,7 +24,7 @@ class Person
     }
 }
 
-$p = new GlobalPerson();
+$p = new GlobalPerson('山田', '太郎');
 
 $p->lastName = '山田';
 $p->firstName = '太郎';
