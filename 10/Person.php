@@ -13,6 +13,6 @@ class Person
 
     public function show(): void
     {
-        print "私は {$this->firstName} {$this->lastName}";
+        print "私は {$this->lastName} {$this->firstName}";
     }
 }
