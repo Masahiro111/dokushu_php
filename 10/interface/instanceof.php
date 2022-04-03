@@ -9,6 +9,6 @@ $figs[] = new Triangle(50, 5);
 
 foreach ($figs as $fig) {
     if ($fig instanceof IFigure) {
-        print $fig->getArea() . " - ";
+        print get_Class($fig) . ":" . $fig->getArea() . " - ";
     }
 }
